@@ -9,3 +9,7 @@ params = {
     'user_id': user_id,
     'v': 5.103,
 }
+get_groups_method = 'groups.get'
+get_friends_method = 'friends.get'
+is_members_method = 'groups.isMember'
+check_user_id_method = 'users.get'

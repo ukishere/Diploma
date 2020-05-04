@@ -17,9 +17,7 @@ def groups_output(groups):
         count += 1
 
 def starter():
-    test_user = classes.User()
-    test_user.user_id = settings.user_id
-    test_user.token = settings.user_token
+    test_user = classes.User(settings.user_id, settings.user_token)
 
     print('Входные данные.')
     print(f'Имя или ID пользователя: {test_user.user_id}')
